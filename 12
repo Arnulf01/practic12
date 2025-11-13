@@ -1,0 +1,73 @@
+#include <iostream>
+
+int main() {
+	setlocale(LC_ALL, "RU");
+	using namespace std;
+
+	int menu = 0;//меню
+	int menu2;
+	string user = "user"; //никнейм пользователя
+	int qua = 2; // 
+	string col ;
+	string col2 = "\x1b[0m";
+
+	while (true) {
+		system("cls");
+		cout << "добро пожаловать123";
+		cout << "[1]Начать игру" << endl << "[2]Настройки" << endl << "[3]Правила" << endl << "[4]Выйти" << endl << "выберете действие: ";
+
+		cin >> menu;
+
+		switch (menu) {
+			//игра
+		case 1: {
+
+			break;
+		}
+			  //настройки
+		case 2: {
+			cout << "[1]Редактирование имени игрока" << endl;
+			cout << "[2]Редактировать количество вопросов" << endl;
+			cout << "[3]Редактировать цвет никнейма" << endl;
+			cout << "выберете действие: ";
+			cin >> menu2;
+				switch (menu2) {
+				case 1: {
+					cout << "ваш текущий никнейм: " << user << endl;
+					cout << "введите новый никнейм: ";
+					cin >> user;
+					break;
+				}
+				case 2: {
+					cout << "текушее количество вопросов: " << qua << endl;
+					cout << "[1] = 8" << endl << "[2] = 10" << endl << "[3] = 12" << endl;
+					cout << "вывберете другое количесво вопросов из доступных: ";
+					cin >> qua; 
+					break;
+				}         
+				case 3: {
+					
+
+
+					break;
+				}
+
+				}
+
+			break;
+		}
+			  //правила
+		case 3: {
+			cout << "игрок получает очки за правельный ответ" << endl << "игрок проходит дальше за правельный оответ" << endl << "игрок тереяет HP за не правельный ответ" << endl;
+			break;
+		}
+			  //выйти
+		case 4: {
+			return 0;
+		}
+		}
+
+		system("pause");
+	}
+
+}
