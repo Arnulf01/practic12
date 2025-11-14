@@ -9,11 +9,12 @@ int main() {
 	string user = "user"; //никнейм пользователя
 	int qua = 2; // 
 	string col ;
+	int num1;
 	string col2 = "\x1b[0m";
 
 	while (true) {
 		system("cls");
-		cout << "добро пожаловать123";
+		cout << col << "добро пожаловать123"  << col2 << endl;
 		cout << "[1]Начать игру" << endl << "[2]Настройки" << endl << "[3]Правила" << endl << "[4]Выйти" << endl << "выберете действие: ";
 
 		cin >> menu;
@@ -21,6 +22,9 @@ int main() {
 		switch (menu) {
 			//игра
 		case 1: {
+			
+			system("cls");
+			cout << "Игрок : " << col << user << col2 << " Жизни : " << " Очки : " << endl; //добавить хп добавить очки
 
 			break;
 		}
@@ -46,9 +50,22 @@ int main() {
 					break;
 				}         
 				case 3: {
-					
+					cout << "[1] красный" << endl << "[2] зелёный" << endl << "[3] cиний" << endl << "[4] фиолетовый" << endl;
+					cout << "Какой цвет ты хочешь?" << endl;
+					cin >> num1;
 
-
+					if (num1 == 1) {
+						col = "\x1b[31m";
+					}
+					else if (num1 == 2) {
+						col = "\x1b[32m";
+					}
+					else if (num1 == 3) {
+						col = "\x1b[34m";
+					}
+					else if (num1 == 4) {
+						col = "\x1b[35m";
+					}
 					break;
 				}
 
@@ -69,5 +86,3 @@ int main() {
 
 		system("pause");
 	}
-
-}
