@@ -52,7 +52,7 @@ int main() {
 				system("cls");
 				cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-				cout << " Какой язык программирования традиционно ассоциируется с разработкой под операционную систему Android? ";
+				cout << " Какой язык программирования традиционно ассоциируется с разработкой под операционную систему Android? " << endl;
 				cout << "[1] Swift" << endl << "[2] C#" << endl;
 				cout << "[3] Java/Kotlin" << endl << "[4] Python" << endl;
 				cout << "Выберете ответ: ";
@@ -74,7 +74,7 @@ int main() {
 				system("cls");
 				cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-				cout << "  Что означает аббревиатура SQL? ";
+				cout << "  Что означает аббревиатура SQL? " << endl;
 				cout << "[1] Structured Question Language" << endl << "[2] Simple Query Logic" << endl;
 				cout << "[3] Structured Query Language" << endl << "[4] Standard Question Line" << endl;
 				cout << "Выберете ответ: ";
@@ -96,7 +96,7 @@ int main() {
 				system("cls");
 				cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-				cout << " Какой из этих типов данных является целочисленным? ";
+				cout << " Какой из этих типов данных является целочисленным? " << endl;
 				cout << "[1] String" << endl << "[2] Float" << endl;
 				cout << "[3] Boolean" << endl << "[4] Integer" << endl;
 				cout << "Выберете ответ: ";
@@ -118,7 +118,7 @@ int main() {
 				system("cls");
 				cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-				cout << " Что такое «баг» в программировании? ";
+				cout << " Что такое «баг» в программировании? " << endl;
 				cout << "[1] Название популярного текстового редактора" << endl << "[2] Ошибка или дефект в программе" << endl;
 				cout << "[3] Особый вид вируса" << endl << "[4] Метод поиска данных в массиве" << endl;
 				cout << "Выберете ответ: ";
@@ -140,7 +140,7 @@ int main() {
 				system("cls");
 				cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-				cout << " Какой компанией был создан язык программирования JavaScript? ";
+				cout << " Какой компанией был создан язык программирования JavaScript? " << endl;
 				cout << "[1] Microsoft" << endl << "[2] Netscape" << endl;
 				cout << "[3] Google" << endl << "[4] Apple" << endl;
 				cout << "Выберете ответ: ";
@@ -162,7 +162,7 @@ int main() {
 				system("cls");
 				cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-				cout << " Что из перечисленного НЕ является системой контроля версий? ";
+				cout << " Что из перечисленного НЕ является системой контроля версий? " << endl;
 				cout << "[1] Git" << endl << "[2] SVN" << endl;
 				cout << "[3] Mercurial" << endl << "[4] Jenkins" << endl;
 				cout << "Выберете ответ: ";
@@ -184,7 +184,7 @@ int main() {
 				system("cls");
 				cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-				cout << " Какой оператор используется в Python для возведения числа в степень? ";
+				cout << " Какой оператор используется в Python для возведения числа в степень? " << endl;
 				cout << "[1] ^" << endl << "[2] **" << endl;
 				cout << "[3] %" << endl << "[4] //" << endl;
 				cout << "Выберете ответ: ";
@@ -201,13 +201,13 @@ int main() {
 					break;
 				}
 
-				
+
 				if (qua == 2) {
 					Sleep(2000);
 					system("cls");
 					cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-					cout << " Что означает принцип DRY в программировании? ";
+					cout << " Что означает принцип DRY в программировании? " << endl;
 					cout << "[1] Don't Repeat Yourself (Не повторяйся)" << endl << "[2] Data Return Yield (Возврат данных)" << endl;
 					cout << "[3] Digital Resource Yielding (Цифровое распределение ресурсов)" << endl << "[4] Debug Running Code (Отладка работающего кода)" << endl;
 					cout << "Выберете ответ: ";
@@ -229,7 +229,7 @@ int main() {
 					system("cls");
 					cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-					cout << " Какой порт по умолчанию используется для протокола HTTPS? ";
+					cout << " Какой порт по умолчанию используется для протокола HTTPS? " << endl;
 					cout << "[1] 80" << endl << "[2] 8080" << endl;
 					cout << "[3] 21" << endl << "[4] 443" << endl;
 					cout << "Выберете ответ: ";
@@ -251,7 +251,7 @@ int main() {
 						system("cls");
 						cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-						cout << " Что такое API? ";
+						cout << " Что такое API? " << endl;
 						cout << "[1] Автоматизированный процессор инструкций" << endl << "[2] Интерфейс для взаимодействия между разными программами" << endl;
 						cout << "[3] Язык низкого уровня" << endl << "[4] Тип базы данных" << endl;
 						cout << "Выберете ответ: ";
@@ -273,7 +273,7 @@ int main() {
 						system("cls");
 						cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
 
-						cout << " Какой алгоритм лежит в основе криптовалюты Bitcoin? ";
+						cout << " Какой алгоритм лежит в основе криптовалюты Bitcoin? " << endl;
 						cout << "[1] Proof-of-Stake (PoS)" << endl << "[2] Proof-of-Work (PoW)" << endl;
 						cout << "[3] SHA-1" << endl << "[4] RSA" << endl;
 						cout << "Выберете ответ: ";
