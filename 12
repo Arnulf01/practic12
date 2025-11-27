@@ -202,7 +202,7 @@ int main() {
 				}
 
 
-				if (qua == 2) {
+				if (qua >= 2) {
 					Sleep(2000);
 					system("cls");
 					cout << "Игрок : " << colu << user << colw << " Жизни : " << colr << life << colw << " Очки : " << point << endl;
